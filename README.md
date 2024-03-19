@@ -1,6 +1,9 @@
 
 # Roc8-test
 
+
+## Live Demo
+Check out the live demo [here](https://nextjs-test-by-somnath-bhunia.vercel.app/).
 ## Overview
 Roc8-test is a web application developed to provide users with a simple login and sign-up system. The main feature of the application is the ability for users to save their interested categories, which are stored on the server. When a user logs in again with the same credentials, they can see their previously saved categories. It's Not a Responsive Version For better experience plz view in laptop or Desktop.
 
