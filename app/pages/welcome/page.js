@@ -32,12 +32,10 @@ const Page = () => {
     fetchData()
   }, [])
   
-   useEffect(() => {
-    setTimeout(() => {
-      if (!LoggedIn) {
-        router.push('/pages/login')
-      }
-    }, 2000);
+ useEffect(() => {
+    if (!LoggedIn) {
+      router.push('/pages/login')
+    }
   }, [])
   
   const handleChange = (value) => {
